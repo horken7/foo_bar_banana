@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from src.foo_bar_banana.main import app
+from foo_bar_banana import app
 
 
 @pytest.fixture
@@ -12,4 +12,4 @@ def client():
 def test_read_root(client):
     response = client.get("/")
     assert response.status_code == 200
-    assert "Hello" in response.json().get("message", "")
+    assert "World" in response.json().get("Hello", "")
