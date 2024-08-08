@@ -1,6 +1,6 @@
 Foo Bar Banana
 ==============
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/foo-bar-banana)
+![example workflow](https://github.com/horken7/foo_bar_banana/actions/workflows/main.yml/badge.svg) ![Vercel Deploy](https://deploy-badge.vercel.app/vercel/foo-bar-banana)
 
 This is an example project for a Python package with FastAPI web application. 
 
