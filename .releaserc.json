@@ -6,7 +6,7 @@
         {
           "preset": "conventionalcommits",
           "releaseRules": [
-            { "type": "*", "release": "patch" }
+            { "release": "patch" }
           ]
         }
       ],
